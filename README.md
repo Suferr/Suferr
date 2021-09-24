@@ -1,10 +1,16 @@
-- 👋 Hi, I’m @Suferr
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+HOW TO MAKE FAKE FREE ROBUX
+how to:
+1. click F12
+2. click console
+3. copy and paste the script enjoy!
+script:
+alert("WELCOME");
 
-<!---
-Suferr/Suferr is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+function start() {
+    var robux = document.getElementById("nav-robux-amount");
+    robux.innerHTML = "INF+";
+      setTimeout(start, 0);
+        var change= document.getElementById("nav-robux-balance");
+     change.innerHTML = " Limit The Number! Robux";
+      setTimeout(start, 0);
+}
